@@ -1,0 +1,570 @@
+.navbar {
+    /* background-color: #f8f9fa; */
+    border-bottom: 1px solid #eaeaea; /* Subtle border below the navbar */
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: orange;
+    font-size: 1.5rem;
+}
+
+.navbar-brand span {
+    color: #00bfff; /* Light blue for the "rishi" part */
+}
+
+.navbar-nav .nav-link {
+    color: #333;
+    font-weight: 500;
+    margin-right: 15px;
+}
+
+.nav-link:hover {
+    color: #007bff; /* Hover effect */
+}
+
+.navbar-toggler {
+    border-color: transparent;
+}
+
+.cart-icon {
+    font-size: 1.2rem;
+    margin-left: 10px;
+}
+
+.astroway-logo-text {
+    font-weight: bold;
+    color: orange;
+}
+
+.astroway-logo-subtext {
+    font-size: 0.8rem;
+    color: #666;
+}
+
+/* Align icons neatly */
+.top-navbar .btn-link {
+    color: #333;
+}
+
+.btn-link i {
+    font-size: 1.5rem;
+}
+
+@media (max-width: 576px) {
+    .astroway-logo-ntext {
+        display: block;
+    }
+
+    .top-navbar .btn-link {
+        margin-left: 5px;
+    }
+}
+
+
+
+.circle {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: relative;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+  }
+
+  #signSelectorContainer div:nth-child(1) .circle {
+    border: 2px solid crimson;
+  }
+
+  #signSelectorContainer div:nth-child(2) .circle {
+    border: 2px solid blue;
+  }
+
+  #signSelectorContainer div:nth-child(3) .circle {
+    border: 2px solid green;
+  }
+
+  #signSelectorContainer div:nth-child(4) .circle {
+    border: 2px solid orange;
+  }
+
+  #signSelectorContainer div:nth-child(5) .circle {
+    border: 2px solid purple;
+  }
+
+  #signSelectorContainer div:nth-child(6) .circle {
+    border: 2px solid teal;
+  }
+
+  #signSelectorContainer div:nth-child(7) .circle {
+    border: 2px solid pink;
+  }
+
+  #signSelectorContainer div:nth-child(8) .circle {
+    border: 2px solid yellow;
+  }
+
+  #signSelectorContainer div:nth-child(9) .circle {
+    border: 2px solid brown;
+  }
+
+  #signSelectorContainer div:nth-child(10) .circle {
+    border: 2px solid lightblue;
+  }
+
+  #signSelectorContainer div:nth-child(11) .circle {
+    border: 2px solid lightgreen;
+  }
+
+  #signSelectorContainer div:nth-child(12) .circle {
+    border: 2px solid lightcoral;
+  }
+
+  #signSelectorContainer div:nth-child(1) .circle:hover {
+    transform: scale(1.2) rotate(15deg);
+    box-shadow: 0 0 15px crimson;
+  }
+
+  #signSelectorContainer div:nth-child(2) .circle:hover {
+    transform: scale(1.2) rotate(-15deg);
+    box-shadow: 0 0 20px blue;
+    border: 2px solid blue;
+  }
+
+  #signSelectorContainer div:nth-child(3) .circle:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 25px green;
+  }
+
+  #signSelectorContainer div:nth-child(4) .circle:hover {
+    transform: scale(1.2) rotate(30deg);
+    box-shadow: 0 0 20px orange;
+  }
+
+  #signSelectorContainer div:nth-child(5) .circle:hover {
+    transform: scale(1.2) rotate(-30deg);
+    box-shadow: 0 0 30px purple;
+  }
+
+  #signSelectorContainer div:nth-child(6) .circle:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 35px teal;
+  }
+
+  #signSelectorContainer div:nth-child(7) .circle:hover {
+    transform: scale(1.2) rotate(45deg);
+    box-shadow: 0 0 15px pink;
+  }
+
+  #signSelectorContainer div:nth-child(8) .circle:hover {
+    transform: scale(1.2) rotate(-45deg);
+    box-shadow: 0 0 20px yellow;
+  }
+
+  #signSelectorContainer div:nth-child(9) .circle:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 25px brown;
+  }
+
+  #signSelectorContainer div:nth-child(10) .circle:hover {
+    transform: scale(1.2) rotate(60deg);
+    box-shadow: 0 0 20px lightblue;
+  }
+
+  #signSelectorContainer div:nth-child(11) .circle:hover {
+    transform: scale(1.2) rotate(-60deg);
+    box-shadow: 0 0 30px lightgreen;
+  }
+
+  #signSelectorContainer div:nth-child(12) .circle:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 35px lightcoral;
+  }
+
+  div#signSelectorContainer {
+    gap: 12px;
+}
+.owl-carousel .item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .video-card {
+    position: relative;
+    width: 300px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    text-align: center;
+  }
+
+  .video-card img.video-thumbnail {
+    width: 100%;
+    height: auto;
+  }
+
+  .youtube-icon {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px !important;
+    height: auto;
+    cursor: pointer;
+    pointer-events: none;
+  }
+
+  .video-card .video-title {
+    padding: 10px;
+    font-weight: bold;
+    color: #0033cc;
+    background-color: #f1f1f1;
+    border-radius: 0 0 8px 8px;
+  }
+  #calculator {
+    background-size: cover !important;
+    background-position: 50% !important;
+
+}
+.product-card {
+    border-radius: 15px;
+    margin: 20px 0;
+    padding: 20px;
+    color: #333;
+    text-align: center;
+    height: 96%;
+    display: flex;
+    flex-direction: column;
+
+}
+.product-card h5 {
+    font-weight: bold;
+    margin-top: 10px;
+}
+.btn-buy {
+    margin-top: auto;
+    background-color: #007bff;
+    color: white;
+}
+
+.parad-shivling {
+    background-color: #ffff;
+}
+.kuber-yantra {
+    background-color: #f5c542;
+}
+.pearl-mala {
+    background-color: #cfd8dc;
+}
+.product-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+.button-blog {
+    padding: 8px 25px;
+    font-size: 14px;
+    color: #1a73e8;
+    background-color: transparent;
+    border: 1px solid #1a73e8;
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 500;
+    height: 40px;
+}
+
+.button-blog:hover {
+    background-color: #1a73e8;
+    color: white;
+}
+
+.font-28 {
+    font-size: 28px !important;
+}
+
+.backimage {
+    background: linear-gradient(171.5deg, #f7f7f7 50%, #ececec 0);
+}
+
+
+/* product list css  */
+
+.vedic-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .vedic-card {
+    background-color: #ffd966;
+    width: auto; /* Fixed Width */
+    /*height: 500px; */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .vedic-card:nth-child(3) {
+    background-color: #ffddcc;
+  }
+
+  .vedic-card:hover {
+    transform: scale(1.05);
+  }
+
+  .vedic-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .vedic-subtitle {
+    color: red;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .vedic-description {
+    flex-grow: 1; /* Ensures equal height content */
+    margin-bottom: 10px;
+    color: #333;
+  }
+
+  .vedic-image {
+    max-width: 100%;
+    height: 150px;
+    object-fit: contain; /* Keeps the aspect ratio */
+    margin: 15px 0;
+  }
+
+  .vedic-price {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .vedic-button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .vedic-button:hover {
+    background-color: #333;
+  }
+
+  .text-start {
+    text-align: start !important;
+}
+.font-15 {
+    font-size: 15px !important;
+}
+.kundli-card {
+    background-color: #fdf5e6;
+    border-radius: 12px;
+    padding: 30px;
+    text-align: center;
+    position: relative;
+  }
+
+  .kundli-card h2 {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .kundli-card p {
+    margin-bottom: 5px;
+  }
+
+  .kundli-card img {
+    width: 100%;
+    height: 500px;
+  }
+
+  .btn-yellow {
+    background-color: #fbc02d;
+    color: white;
+    font-weight: bold;
+    border-radius: 30px;
+    padding: 10px 20px;
+    border: none;
+  }
+
+  .panchang-card {
+    background-color: #c2185b;
+    border-radius: 12px;
+    color: white;
+    padding: 20px;
+    text-align: left;
+  }
+
+  .panchang-card h3 {
+    margin-bottom: 15px;
+  }
+
+  .panchang-card .time-card {
+    background-color: white;
+    color: black;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .detailed-link {
+    text-align: center;
+    display: block;
+    background-color: #880e4f;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 10px;
+    text-decoration: none;
+  }
+
+
+.bg-fuchsia{
+    background-color: #FDF4FF;
+  }
+  .bg-fuchsia:hover{
+    background-color: #FAE8FF;
+  }
+  .bg-slate{
+    background-color: #F8FAFC;
+  }
+  .bg-slate:hover{
+    background-color: #F1F5F9;
+  }
+  .bg-purple{
+    background-color: #FAF5FF;
+  }
+  .bg-purple:hover{
+    background-color: #F3E8FF;
+  }
+  .bg-lime{
+    background-color: #F7FEE7;
+  }
+  .bg-lime:hover{
+    background-color: #ECFBCB;
+  }
+  .bg-rose{
+    background-color: #FFF1F2;
+  }
+  .bg-rose:hover{
+    background-color: #FFE4E6;
+  }
+  .bg-green{
+    background-color: #F0FDF4;
+  }
+  .bg-green:hover{
+    background-color: #DCFCE7 !important;
+  }
+  .bg-sky{
+    background-color: #F0F9FF;
+  }
+  .bg-sky:hover{
+    background-color: #E0F2FE;
+  }
+
+  .product-details-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px; /* Default height */
+    overflow: hidden;
+}
+
+.product-details-img img {
+    object-fit: cover;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+@media (max-width: 576px) {
+    /* Adjust for mobile view */
+    .product-details-img {
+        height: 300px; /* Smaller height for mobile */
+    }
+}
+
+.bg-astrologer-pink-light {
+    background: linear-gradient(90deg, #fff1f2 0%, #dcfce7 100%);
+}
+
+.astroway-astrologers .item{
+    border: 1px solid #212529 !important;
+}
+.bg-gray{
+    background: #f9fafb !important;
+}
+.btn-chat-astro {
+    background: #ffffff !important;
+    /* box-shadow: 0 2px 3px #ffd70080; */
+    font-size: 15px !important;
+    font-weight: 600 !important;
+    border-radius: 10px !important;
+    padding: 8px 20px !important;
+    margin: 0 5px !important;
+    white-space: nowrap !important;
+}
+
+.btn-chat-astro:hover {
+    background: #fff;
+    border: 2px solid gold;
+}
+
+.btn-load-more {
+  display: block;
+  width: fit-content;
+  margin: 20px auto;
+  padding: 7px 15px;
+  background-color: #495057;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn-load-more:hover:not(:disabled) {
+  background-color: #495057;
+  transform: translateY(-2px);
+}
+
+.btn-load-more:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.loader {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  border-top: 2px solid transparent;
+  animation: spin 0.8s linear infinite;
+  margin-right: 8px;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
